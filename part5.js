@@ -1,15 +1,7 @@
-console.log("Trying out the lab...");
-
-// Part 4: Creating a Server
+// Part 5: Open Exploration
 const http = require("http");
 const hostname = "127.0.0.1";
 const port = 3000;
-
-// const server = http.createServer((req, res) => {
-//   res.statusCode = 200;
-//   res.setHeader("Content-Type", "text/plain");
-//   res.end("Hello World!\n");
-// });
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
